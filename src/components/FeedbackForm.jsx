@@ -19,7 +19,7 @@ const FeedbackForm = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const response = await axios.post('https://real-time-feedback-system-server.vercel.app/feedbacks', formData);
+      const response = await axios.post('https://real-time-feedback-system-server-jpbwuiadg-tafiyas-projects.vercel.app/feedbacks', formData);
 
       // Clear form after successful submission
       setFormData({
